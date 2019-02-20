@@ -3,7 +3,7 @@ import "fmt"
 import "time"
 
 func go_worker(name string){
-     for i:0;i<10;i++{
+     for i:=0;i<10;i++{
           fmt.Println("I,am a goroutine,my name is",name,"-----")
           time.Sleep(1*time.Second)
      
